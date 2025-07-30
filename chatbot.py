@@ -18,10 +18,12 @@ motivational quotes if the key is missing or the API fails.
 import logging
 import os
 import sys
+from dotenv import load_dotenv
+load_dotenv()
 from datetime import date
 from typing import Optional
 
-from langchain.chat_models import ChatOpenAI
+from langchain_community.chat_models import ChatOpenAI
 from langchain.schema import SystemMessage, HumanMessage
 
 import database
