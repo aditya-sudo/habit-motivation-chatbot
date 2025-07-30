@@ -36,7 +36,7 @@ always receive a boost of encouragement.
 Clone the repository and install dependencies using `pip`:
 
 ```bash
-git clone https://github.com/<your‑username>/habit‑motivation‑chatbot.git
+git clone https://github.com/aditya-sudo/habit-motivation-chatbot.git
 cd habit‑motivation‑chatbot
 pip install -r requirements.txt
 ```
